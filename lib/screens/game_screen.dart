@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 import 'package:tictactoe_tut/provider/room_data_provider.dart';
 import 'package:tictactoe_tut/resources/socket_methods.dart';

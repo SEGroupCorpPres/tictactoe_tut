@@ -17,7 +17,7 @@ class SocketClient {
 
   SocketClient._internal() {
     print(info());
-    socket = IO.io('http://192.168.43.252:3000', <String, dynamic>{
+    socket = IO.io('http://yournetworkip:3000', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });

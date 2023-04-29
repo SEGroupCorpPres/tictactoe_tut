@@ -11,8 +11,7 @@ const Room = require("./models/room");
 var io = require("socket.io")(server);
 app.use(express.json());
 
-const DB =
-  "mongodb+srv://Starscream:29011998Roza@clusterfree.z8hpzwz.mongodb.net/?retryWrites=true&w=majority";
+const DB = "your mongoose database";
 
 io.on("connection", (socket) => {
   console.log("connection success");
