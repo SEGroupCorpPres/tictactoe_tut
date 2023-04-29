@@ -1,5 +1,8 @@
 # tictactoe_tut
 
+Thanks to Rivaan Ranawat for the youtube video tutorial
+
+
 A new Flutter project.
 
 ## Getting Started
